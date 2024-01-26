@@ -1,0 +1,29 @@
+.hero {
+  color: black;
+}
+.hero img {
+  display: block;
+  height: auto;
+}
+.image {
+  width: 100%;
+}
+h1 {
+  position: absolute;
+  top: 40%;
+}
+article {
+  position: absolute;
+  top: 50%;
+  color: black;
+  background-color: rgba(123, 123, 194, 0.363);
+  font-size: 24px;
+}
+article img {
+  float: right;
+  width: 20%;
+}
+
+section img {
+  width: 30%;
+}
