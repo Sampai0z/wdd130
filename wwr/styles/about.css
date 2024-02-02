@@ -51,3 +51,30 @@ nav a {
   font-weight: 700;
   color: #fff;
 }
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  width: 40%;
+  margin: auto;
+}
+
+.figureImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
