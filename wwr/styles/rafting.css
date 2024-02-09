@@ -1,3 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+  --heading-font: "Popins", sans-serif;
+  --paragraph-font: "Roboto", sans-serif;
+  --nav-bg-color: #396e94;
+  --nav-link-color: #fff;
+  --nav-hover-link-color: #aabd8c;
+  --nav-hover-active-link-color: #444994;
+  --nav-hover-bg-color: #381d2a;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+header {
+  padding: 10px;
+  background-color: var(--primary-color);
+}
+
+p {
+  padding: 10px;
+}
+
+nav {
+  background-color: var(--nav-bg-color);
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-bg-color);
+}
+nav a:active {
+  color: var(--nav-hover-active-link-color);
+  background-color: var(--nav-hover-bg-color);
+}
+
+footer {
+  margin-top: 1rem;
+  border-top: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
 .hero {
   color: black;
 }
@@ -56,6 +122,7 @@ nav a {
   justify-content: center;
   align-items: center;
 }
+/* ----- CONTACT US PAGE STYLE ----- */
 
 figure {
   border: thin #c0c0c0 solid;
@@ -78,18 +145,15 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
-/* __ */
-/* Add styles for Company Information section */
 .company-info {
   margin-bottom: 20px;
 }
 
-/* Add styles for Google Map */
 .google-map {
-  /* Add your styles here */
+  width: 600;
+  height: 450;
 }
 
-/* Add styles for Employee Profiles section */
 .employee-profiles {
   margin-bottom: 30px;
   display: flex;
@@ -109,7 +173,10 @@ figcaption {
 
 /* Add styles for Contact Form section */
 .contact-form {
-  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .contact-form input {
   margin-bottom: 2rem;
@@ -117,7 +184,6 @@ figcaption {
 
 .contact-form form {
   max-width: 500px;
-  margin: 0 auto;
 }
 .contact-form h2 {
   display: flex;
