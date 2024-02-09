@@ -34,6 +34,9 @@ header {
   padding: 10px;
   background-color: var(--primary-color);
 }
+header img {
+  width: 140px;
+}
 
 p {
   padding: 10px;
@@ -150,8 +153,8 @@ figcaption {
 }
 
 .google-map {
-  width: 600;
-  height: 450;
+  width: 600px;
+  height: 450px;
 }
 
 .employee-profiles {
@@ -209,4 +212,9 @@ figcaption {
 
 .contact-form button:hover {
   background-color: #2980b9;
+}
+
+.contact-form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3498db;
 }

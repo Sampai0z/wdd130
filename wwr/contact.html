@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="" width="140px" />
+      <img src="images/logo.png" alt="my-logo" />
       <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
@@ -39,21 +39,21 @@
         </div>
       </section>
       <!-- Employee Profiles -->
-      <section ">
+      <section>
         <h2 class="flex">Meet Our Team</h2>
         <div class="employee-profiles">
-         <div class="employee">
-          <img src="./images/my-profile.png" alt="Employee 1" />
-          <p>Caption: Vitor Sampaio - CEO</p>
-         </div>
-         <div class="employee">
-          <img src="./images/marcus.jpg" alt="Employee 2" />
-          <p>Caption: Marcus Arelio - HR</p>
-         </div>
-         <div class="employee">
-          <img src="./images/jessica.jpg" alt="Employee 3" />
-          <p>Caption: Jessica Reis - Web Design</p>
-         </div>
+          <div class="employee">
+            <img src="./images/my-profile.png" alt="Employee 1" />
+            <p>Caption: Vitor Sampaio - CEO</p>
+          </div>
+          <div class="employee">
+            <img src="./images/marcus.jpg" alt="Employee 2" />
+            <p>Caption: Marcus Arelio - HR</p>
+          </div>
+          <div class="employee">
+            <img src="./images/jessica.jpg" alt="Employee 3" />
+            <p>Caption: Jessica Reis - Web Design</p>
+          </div>
         </div>
       </section>
 
@@ -61,30 +61,48 @@
       <section class="contact-form">
         <h2>Contact Us</h2>
         <form action="submit_form.php" method="post">
-         <label for="name">Name:</label>
-         <input type="text" id="name" name="name" required>
- 
-         <label for="email">Email:</label>
-         <input type="email" id="email" name="email" required>
- 
-         <label>Purpose of Message:</label>
-         <br><br>
-         <input type="radio" id="generalInquiry" name="purpose" value="General Inquiry" checked>
-         <label for="generalInquiry">General Inquiry</label>
- 
-         <input type="radio" id="reservationQuestion" name="purpose" value="Reservation Question">
-         <label for="reservationQuestion">Reservation Question</label>
- 
-         <input type="radio" id="websiteSuggestion" name="purpose" value="Website Suggestion">
-         <label for="websiteSuggestion">Website Suggestion</label>
- 
-         <label for="message">Message:</label>
-         <textarea id="message" name="message" rows="4" required></textarea>
- 
-         <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-         <label for="subscribe">Please subscribe me to the monthly newsletter</label>
- 
-         <button type="submit" id="submitButton">Submit</button>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label>Purpose of Message:</label>
+          <br /><br />
+          <input
+            type="radio"
+            id="generalInquiry"
+            name="purpose"
+            value="General Inquiry"
+            checked
+          />
+          <label for="generalInquiry">General Inquiry</label>
+
+          <input
+            type="radio"
+            id="reservationQuestion"
+            name="purpose"
+            value="Reservation Question"
+          />
+          <label for="reservationQuestion">Reservation Question</label>
+
+          <input
+            type="radio"
+            id="websiteSuggestion"
+            name="purpose"
+            value="Website Suggestion"
+          />
+          <label for="websiteSuggestion">Website Suggestion</label>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+          <label for="subscribe"
+            >Please subscribe me to the monthly newsletter</label
+          >
+
+          <button type="submit" id="submitButton">Submit</button>
         </form>
       </section>
     </main>
