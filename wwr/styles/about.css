@@ -32,6 +32,10 @@ header {
   justify-content: center;
   gap: 4rem;
 }
+header {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
 
 nav {
   display: flex;
